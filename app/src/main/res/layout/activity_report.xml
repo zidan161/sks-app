@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".ReportActivity">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Laporan bulan: Januari 2022"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tv_date">
+
+        <TableLayout
+            android:id="@+id/table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:shrinkColumns="*"
+            android:visibility="invisible">
+
+            <TableRow>
+
+                <TextView
+                    android:text="Nama"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"/>
+
+                <TextView
+                    android:text="Harga"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"/>
+
+                <TextView
+                    android:text="Jumlah Terjual"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"/>
+
+                <TextView
+                    android:text="Total"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_pdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll"
+        android:layout_marginTop="20dp"
+        android:layout_toStartOf="@+id/btn_excel"
+        android:layout_marginEnd="20dp"
+        android:visibility="gone"
+        android:text="to PDF" />
+
+    <Button
+        android:id="@+id/btn_excel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:text="to Excel" />
+
+    <ProgressBar
+        android:id="@+id/pg_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

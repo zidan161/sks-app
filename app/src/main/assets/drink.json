@@ -1,0 +1,56 @@
+{
+	"data": [
+		{
+			"name": "Teh Hangat",
+			"price": 3000
+		},
+		{
+			"name": "Jeruk",
+			"price": 4000
+		},
+		{
+			"name": "Lemon Tea",
+			"price": 4000
+		},
+		{
+			"name": "Teh Poci",
+			"price": 10000
+		},
+		{
+			"name": "Susu Murni",
+			"price": 5000
+		},
+		{
+			"name": "Susu Jahe",
+			"price": 7000
+		},
+		{
+			"name": "Wedang Uwuh",
+			"price": 10000
+		},
+		{
+			"name": "Teh Telang",
+			"price": 5000
+		},
+		{
+			"name": "Es Teh",
+			"price": 3000
+		},
+		{
+			"name": "Es Jeruk",
+			"price": 4000
+		},
+		{
+			"name": "Es Lemon Tea",
+			"price": 4000
+		},
+		{
+			"name": "Air Putih Botol",
+			"price": 3000
+		},
+		{
+			"name": "Banyu Kendi",
+			"price": 0
+		}
+	]
+}

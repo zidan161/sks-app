@@ -1,0 +1,68 @@
+{
+	"data": [
+		{
+			"name": "Soto Kepala sapi",
+			"price": 5000
+		},
+		{
+			"name": "Soto Daging",
+			"price": 7000
+		},
+		{
+			"name": "Soto Iga",
+			"price": 15000
+		},
+		{
+			"name": "Sop Kepala sapi",
+			"price": 10000
+		},
+		{
+			"name": "Sop Daging",
+			"price": 15000
+		},
+		{
+			"name": "Sop Iga",
+			"price": 25000
+		},
+		{
+			"name": "Rawon Kepala sapi",
+			"price": 15000
+		},
+		{
+			"name": "Rawon Daging",
+			"price": 17000
+		},
+		{
+			"name": "Rawon Iga",
+			"price": 25000
+		},
+		{
+			"name": "Pecel Kikil",
+			"price": 6000
+		},
+		{
+			"name": "Tumpang Koyor",
+			"price": 7000
+		},
+		{
+			"name": "Rujak Cingur",
+			"price": 15000
+		},
+		{
+			"name": "Oseng Kepala",
+			"price": 15000
+		},
+		{
+			"name": "Iga Gongso",
+			"price": 25000
+		},
+		{
+			"name": "Sate Sapi",
+			"price": 25000
+		},
+		{
+			"name": "Iga Bakar",
+			"price": 35000
+		}
+	]
+}

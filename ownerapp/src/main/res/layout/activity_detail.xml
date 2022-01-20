@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/tv_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_pesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_table"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:text="Detail Pesanan"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Makanan"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pesanan"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_drinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Minuman"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/rv_makanan" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_minuman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_drinks"
+        android:layout_marginTop="10dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
